@@ -37,5 +37,7 @@ UserInterfaceState.xcuserstate
 src/app/app.constant.ts
 
 # Envrionment Variables
-**/environment.*
+**/environment.ts
+**/environment.dev.ts
+**/environment.production.ts
 !**/environment.model.ts

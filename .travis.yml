@@ -8,6 +8,9 @@ install:
   - npm install -g codecov
 
 script:
-  - npm ci --no-optional
-  - npm run test && codecov
-  - npm run website:build
+  - npm install
+# - npm run test && codecov
+#  - npm run test-coverage
+  - ionic cordova platform remove browser 
+  - ionic cordova platform add browser
+#  - MY_ENV=testing ionic serve

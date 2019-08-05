@@ -5,7 +5,8 @@ import 'rxjs/add/operator/map';
 import { Parse } from 'parse';
 
 // Constants
-import { ENV } from '../../app/app.constant';
+//import { ENV } from '../../app/app.constant';
+import { ENV } from '@app/env';
 
 @Injectable()
 export class ParseProvider {

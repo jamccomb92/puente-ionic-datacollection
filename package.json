@@ -85,6 +85,9 @@
     "tslint-eslint-rules": "5.4.0",
     "typescript": "2.4.1"
   },
+  "config": {
+    "ionic_webpack": "./config/webpack.config.js"
+  },
   "cordova": {
     "plugins": {
       "cordova-plugin-device": {},

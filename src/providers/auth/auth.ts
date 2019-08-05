@@ -8,7 +8,9 @@ import 'rxjs/add/operator/map';
 import { Parse } from 'parse';
 
 // Constants
-import { ENV } from '../../app/app.constant';
+//import { ENV } from '../../app/app.constant';
+import { ENV } from '@app/env';
+
 
 export class User {
   public id: string;

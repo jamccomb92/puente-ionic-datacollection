@@ -80,7 +80,7 @@
     "null-loader": "3.0.0",
     "protractor": "5.4.2",
     "ts-loader": "3.0.3",
-    "ts-node": "3.0.2",
+    "ts-node": "3.3.0",
     "tslint": "5.18.0",
     "tslint-eslint-rules": "5.4.0",
     "typescript": "2.4.1"
